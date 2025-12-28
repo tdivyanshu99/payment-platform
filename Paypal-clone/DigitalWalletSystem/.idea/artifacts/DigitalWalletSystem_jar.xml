@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DigitalWalletSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DigitalWalletSystem_jar</output-path>
+    <root id="archive" name="DigitalWalletSystem.jar">
+      <element id="module-output" name="DigitalWalletSystem" />
+    </root>
+  </artifact>
+</component>
