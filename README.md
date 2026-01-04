@@ -9,7 +9,7 @@ operations and reliable distributed payment processing.
 ## Tech Stack
 
 - **Language:** Java  
-- **Framework:** Spring Boot (Microservices)  
+- **Framework:** Spring Boot    
 - **Messaging:** Apache Kafka (Event-Driven Communication)  
 - **Database:** H2DB  
 - **Containerization:** Docker, Docker Compose  
@@ -20,8 +20,7 @@ operations and reliable distributed payment processing.
 
 ## System Architecture
 
-Client → API Gateway → Wallet Core Service  
-Wallet Core Service → Transaction Service (Create Transaction)  
+Client → API Gateway → Wallet Core Service    
 Transaction Service → Kafka → Reward & Notification Services (Async consumers)  
 
 ---
