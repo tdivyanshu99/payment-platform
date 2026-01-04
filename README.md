@@ -39,7 +39,7 @@ Transaction Service → Kafka → Reward & Notification Services (Async consumer
 
 ---
 
-## High TPS & Concurrency Design
+## Concurrency Design
 
 - Uses **per-wallet `StampedLock`** for fine-grained concurrency control.  
 - Implements **consistent lock ordering** to prevent deadlocks.  
