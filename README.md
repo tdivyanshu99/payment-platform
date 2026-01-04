@@ -11,7 +11,7 @@ operations and reliable distributed payment processing.
 - **Language:** Java  
 - **Framework:** Spring Boot (Microservices)  
 - **Messaging:** Apache Kafka (Event-Driven Communication)  
-- **Database:** MySQL  
+- **Database:** H2DB  
 - **Containerization:** Docker, Docker Compose  
 - **Security:** JWT, Role-Based Access Control (RBAC)  
 - **API Layer:** Spring Cloud Gateway (API Gateway)
@@ -32,7 +32,7 @@ Transaction Service → Kafka → Reward & Notification Services (Async consumer
 |--------|---------------|
 | **API Gateway** | Request routing, JWT validation, filtering |
 | **User Service** | Auth, roles, JWT generation, RBAC |
-| **Transaction Service** | Persists transactions (MySQL), publishes Kafka events |
+| **Transaction Service** | Persists transactions (H2DB), publishes Kafka events |
 | **Reward Service** | Processes reward events, credits wallets |
 | **Notification Service** | Sends async notifications from Kafka events |
 | **DigitalWalletSystem (Wallet Core)** | Concurrency-safe wallet operations, reward logic |
