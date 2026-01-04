@@ -20,9 +20,9 @@ operations and reliable distributed payment processing.
 
 ## System Architecture
 
-Client → API Gateway → Wallet Core Service
-Wallet Core → Transaction Service (Create Transaction)
-Transaction Service → Kafka → Reward & Notification Services (Async consumers)
+Client → API Gateway → Wallet Core Service  
+Wallet Core Service → Transaction Service (Create Transaction)  
+Transaction Service → Kafka → Reward & Notification Services (Async consumers)  
 
 ---
 
